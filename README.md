@@ -1,6 +1,6 @@
 
 ###### Below we can see high level logic of User Service api
-###### Detailed api specification, especially information about json specification, should be found in swagger/openapi documentation of User Service api.
+###### Detailed api specification, especially information about json specification, should be found in swagger/openapi documentation of User Service api (which is built into app).
 
 # Animal association
 
