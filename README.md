@@ -4,7 +4,7 @@
 
 # Animal association
 
-#### create_animal_association
+#### /create_animal_association
 
 - This route should be only open to register service.
 - When user register, register service should send api request to user service.
@@ -21,7 +21,7 @@
     - association_name
     - association_username
 
-#### read_animal_association
+#### /read_animal_association
 
 - Check if animal association exist. 
 - Returns relevant information.
@@ -29,7 +29,7 @@
 - Parameters:
     - keycloak_id
 
-#### update_animal_association
+#### /update_animal_association
 
 - Check if animal association exist.
 - Check if city_id exist. As a city_id you can input only already predefined city ids.
@@ -47,7 +47,7 @@
     - about_association
 
 
-#### delete_animal_association
+#### /delete_animal_association
 
 - Check if animal association exist.
 - Set value of is_active field to be equal to 0.
@@ -55,7 +55,7 @@
 - Parameters:
     - keycloak_id
 
-#### all_animal_associations
+#### /all_animal_associations
 
 - There is no input parameters.
 - Calling this api route will return information about all registered animal associations.
@@ -64,7 +64,7 @@
 
 # Private Users
 
-#### create_private_user
+#### /create_private_user
 
 - This api route should be only open to register service.
 - When user registers, registration service should send api request with corresponding information to user service.
@@ -82,7 +82,7 @@
     - username
     - email
 
-#### read_private_user
+#### /read_private_user
 
 - Check if private user exist.
 - Return corresponding information.
@@ -90,7 +90,7 @@
 - Parameters:
     - keycloak_id
 
-#### update_private_user
+#### /update_private_user
 
 - Check if private user exist.
 - Checks if city_id exists in database. As city_id, you can input only already determined cities.
@@ -110,7 +110,7 @@
 
 # Private Users Like
 
-#### like_animal
+#### /like_animal
 
 - Check does user exist.
 - Check does animal exist.
@@ -120,7 +120,7 @@
     - animal_id
     - keycloak_id
 
-#### dislike_animal
+#### /dislike_animal
 
 - Check does user exist.
 - Check does animal exist.
@@ -131,7 +131,7 @@
     - animal_id
     - keycloak_id
 
-#### liked_animals_by_user
+#### /liked_animals_by_user
 
 - Check does user exist.
 - Returns all animals liked by specific user.
