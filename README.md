@@ -4,8 +4,6 @@
 
 # Animal association
 
-## Routes
-
 #### create_animal_association
 
 - This route should be only open to register service.
