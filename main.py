@@ -18,33 +18,6 @@ from sqlmodel import create_engine
 from fastapi import FastAPI, HTTPException
 from sqlmodel import SQLModel, Session, select
 
-# cwd = os.getcwd()
-# sys.path.append(cwd)
-
-from app.animal_associations.CRUD_association.create_association import create_animal_association
-from app.animal_associations.CRUD_association.delete_association import delete_animal_association
-from app.animal_associations.CRUD_association.helper_functions.does_association_exist import \
-    does_animal_association_exist, does_animal_association_exist_active_or_not
-from app.animal_associations.CRUD_association.read_association import read_animal_association
-from app.animal_associations.CRUD_association.update_association import update_animal_association
-from app.private_users.CRUD_like.helper_functions.already_liked_animal import already_liked
-from app.private_users.CRUD_like.helper_functions.is_animal_present import animal_present
-from app.private_users.CRUD_like.liked_animals_by_user import liked_animals_by_user
-from app.private_users.CRUD_like.user_animal_dislike import dis_like
-from app.private_users.CRUD_like.user_animal_like import like
-from app.private_users.CRUD_user.create_user import create_user
-from app.private_users.CRUD_user.delete_user import delete_user
-from app.private_users.CRUD_user.helper_functions.does_city_exist import does_city_exist
-from app.private_users.CRUD_user.helper_functions.does_user_exist import does_user_exist_active_or_not, does_user_exist
-from app.private_users.CRUD_user.read_user import read_user
-from app.private_users.CRUD_user.update_user import update_user
-from app.private_users.models import PrivateUser, LikePrivateUser, City, LikePrivateUserResponse, AnimalAssociation, \
-    PrivateUserCreate, PrivateUserUpdate, LikeDislikeModel, AnimalAssociationCreate, AnimalAssociationUpdate
-
-# cwd = os.getcwd()
-# sys.path.append(cwd)
-
-from app.private_users.models import PrivateUser
 
 from app.api_routes.private_user import private_users
 from app.api_routes.likes import likes
