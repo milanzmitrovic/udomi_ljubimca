@@ -1,5 +1,5 @@
 
-from app.main import engine
+from main import engine
 # from sqlmodel import create_engine
 
 from app.private_users.CRUD_user.update_user import update_user

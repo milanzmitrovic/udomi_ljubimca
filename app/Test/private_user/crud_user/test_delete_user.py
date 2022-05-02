@@ -1,5 +1,5 @@
 
-from app.main import engine
+from main import engine
 from app.private_users.CRUD_user.delete_user import delete_user
 
 
