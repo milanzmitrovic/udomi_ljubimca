@@ -1,6 +1,6 @@
 
 
-## This is preview of dashboard
+## This is preview of user service
 
 
 https://user-images.githubusercontent.com/58112365/190418639-2fe95741-c32c-42a9-a092-f36bff300e3e.mov
