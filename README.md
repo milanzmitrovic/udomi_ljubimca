@@ -1,6 +1,18 @@
 
+
+## This is preview of dashboard
+
+
+https://user-images.githubusercontent.com/58112365/190418639-2fe95741-c32c-42a9-a092-f36bff300e3e.mov
+
+
+
+https://user-images.githubusercontent.com/58112365/190418678-d03286f4-63cf-4b18-bc71-dfda72fdbf51.mov
+
+
 ###### Below we can see high level logic of User Service api
 ###### Detailed api specification, especially information about json specification, should be found in swagger/openapi documentation of User Service api (which is built into app).
+
 
 # Animal association
 
